@@ -14,12 +14,6 @@ function App() {
       document.getElementsByClassName("size")[0].value=5
       setSize(5)
     }
-    else if (size<3) {
-      alert('3 이상의 사이즈를 입력하세요.')
-      document.getElementsByClassName("size")[0].value=3
-      setSize(3)
-    }
-    
   },[size])
 
   const onChange = e => {
